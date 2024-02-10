@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #FFE2B0;
 }
@@ -47,10 +51,12 @@ nav {
     position: absolute;
     left: 730px;
     top: 349px;
+    padding-top: 15px;
 }
 
 .section-about__border {
     height: 160px;
     width: 390px;
     border: 1px solid black;
+    margin: 0 auto;
 }
